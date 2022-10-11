@@ -1,0 +1,1 @@
+from .data_wikics import dataset_wikics
