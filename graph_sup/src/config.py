@@ -20,7 +20,8 @@ def config():
     parser.add_argument('--batch-size', type=int, default=32)
     
     # number of communities
-    parser.add_argument('--N-coms', type=int, default=4)
+    parser.add_argument('--N-coms', type=int, default=2,
+        help='2, 4')
 
     # InfNet parameters
     parser.add_argument('--InfNet-lr', type=float, default=1e-3)
